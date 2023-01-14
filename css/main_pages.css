@@ -1,0 +1,60 @@
+@import url(./reset.css);
+
+nav {
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #7E3B32;
+}
+
+#btn_nav {
+    border: none;
+    padding-right: 93px;
+    background-color: #7E3B32;
+    margin-left: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.nav_a {
+
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: #7E3B32;
+text-decoration: none;
+
+color: #F6D2A3;
+
+}
+
+.nav_a:hover {
+    text-decoration: underline;
+}
+
+.btn_nav_right {
+    display: flex;
+    justify-content: end;
+}
+
+.main_image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 77px;
+
+}
+
+.images_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.righter {
+    align-items: flex-end;
+}

@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>First_Figma</title>
+        <title>Films</title>
         <meta name="description" content="viewport">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
+        <!-- <div id="page-preloader" class="preloader">
+            <div class="loader"></div>
+        </div> -->
         <header>
             <img width="1920px" height="200px" src="/img/banner.jpg" alt="banner">
         </header>
@@ -25,12 +28,15 @@
             <button id="btn_nav">
                 <a class="nav_a" href="#">Short</a>
             </button>
+            <button id="btn_nav">
+                <a class="nav_a" href="https://github.com/SerhiiMikhalkov/films_step">GitHub</a>
+            </button>
         </nav>
         <div class="content">
             <!-- 1 -->
             <div class="card">
                 <img class="img_up" src="/img/1.svg" alt="card_img">
-                <a class="a_card text-center" href="#">
+                <a class="a_card" href="/html_page/one_page.html">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -41,7 +47,7 @@
             <!-- 2 -->
             <div class="card">
                 <img class="img_up" src="/img/2.svg" alt="card_img">
-                <a class="a_card text-center" href="#">
+                <a class="a_card" id="cards" href="#">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -52,7 +58,7 @@
             <!-- 3 -->
             <div class="card">
                 <img class="img_up" src="/img/3.svg" alt="card_img">
-                <a class="a_card" href="/second_page.html">
+                <a class="a_card" id="cards" href="#">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -63,7 +69,7 @@
             <!-- 4 -->
             <div class="card">
                 <img class="img_up" src="/img/4.svg" alt="card_img">
-                <a class="a_card text-center" href="#">
+                <a class="a_card" id="cards" href="#">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -74,7 +80,7 @@
             <!-- 5 -->
             <div class="card">
                 <img class="img_up" src="/img/5.svg" alt="card_img">
-                <a class="a_card text-center" href="#">
+                <a class="a_card" id="cards" href="#">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -85,7 +91,7 @@
             <!-- 6 -->
             <div class="card">
                 <img class="img_up" src="/img/6.svg" alt="card_img">
-                <a class="a_card text-center" href="#">
+                <a class="a_card" id="cards" href="#">
                     S2 E1 23m
                     <br/>
                     <strong>
@@ -94,6 +100,7 @@
                 </a>
             </div>
         </div>
-        <script src="script.js" async defer></script>
+        <script src="./js/preloader.js" async defer></script>
+        <script src="./js/script.js" async defer></script>
     </body>
 </html>
